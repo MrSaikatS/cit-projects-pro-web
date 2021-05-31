@@ -1,0 +1,141 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff5e7;
+}
+.container {
+    font-size: 20px;
+    color: black;
+    font-family: arial;
+}
+
+/* HEADER */
+
+.hero-header {
+    width: auto;
+    height: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.hero-header-logo {
+    font-size: 25px;
+    font-weight: 900;
+    float: left;
+}
+.hero-header-menu {
+    padding-top: 15px;
+    font-weight: 600;
+    float: right;
+}
+.banner-img {
+    width: 100%;
+    height: 325px;
+    background-image: url('/Images/banner-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 250px;
+    font-size: 45px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.banner-img b {
+    color: #ff9205;
+    font-weight: 900;
+}
+
+/* MAIN */
+.middle-content {
+    width: auto;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 450px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.left-box {
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+    float: left;
+}
+.right-box {
+    width: auto;
+    height: auto;
+    padding-right: 15px;
+    float: right;
+}
+.right-box-img-text, .left-box-img-text {
+    padding-left: 20px;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 900;
+    color: black;
+}
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+h3 {
+    font-size: 12px;
+    font-weight: 200;
+    color: #5a5a5a;
+}
+
+/* FOOTER #1 */
+
+.footer1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer1 table {
+    background-image: url('/Images/footer-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer1 td {
+    width: 800px;
+    height: 350px;
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 900;
+}
+
+/* FOOTER #2 */
+
+.footer2 {
+    padding-top: 0px;
+    padding-bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer2 .get {
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: #2c2c2c;
+}
+.footer2 .twitter {
+    font-weight: 600;
+    font-size: 18px;
+    color: #a1a1a1;
+}
+.footer2 .home {
+    font-size: 18px;
+    color: #919090;
+}
+.footer2 .hello {
+    font-family: 'Courier New';
+    font-size: 20px;
+    color: #a7a7a7;
+}
+.footer2 .works {
+    font-size: 18px;
+}
