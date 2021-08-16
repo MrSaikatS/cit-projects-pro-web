@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(5, 20, 43);
+    background-image: url('/img/laptop_2-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.main {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    top: 15%;
+}
+.left {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 30rem;
+    height: 32rem;
+    background-color: rgba(7, 7, 7,0.7);
+    box-shadow: 0px 0px 15px 2px rgb(15, 15, 36);
+}
+.right {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 30rem;
+    height: 32rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 15px 2px rgb(39, 39, 39);
+}

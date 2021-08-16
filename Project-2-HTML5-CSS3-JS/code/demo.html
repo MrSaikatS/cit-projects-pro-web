@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/css/bootstrap.min.css" />
+		<link
+			rel="shortcut icon"
+			href="/img/CIT_LOGO_Circle.png"
+			type="image/x-icon"
+		/>
+		<title>CIT Class</title>
+	</head>
+	<body class="">
+		<h1 class="text-center">JS ID Card</h1>
+		<br />
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<!-- Form Input -->
+					<div class="container">
+						<div class="row">
+							<div class="col"></div>
+							<div class="col-5 fs-5">Fill The Form</div>
+							<div class="col"></div>
+						</div>
+						&nbsp;
+						<div class="row">
+							<div class="col">Your Name :</div>
+							<div class="col"><input type="text" name="" id="gname" /></div>
+						</div>
+						&nbsp;
+						<div class="row">
+							<div class="col">Your Email :</div>
+							<div class="col"><input type="email" name="" id="gemail" /></div>
+						</div>
+						&nbsp;
+						<div class="row">
+							<div class="col">Course Name :</div>
+							<div class="col"><input type="text" name="" id="gcname" /></div>
+						</div>
+						&nbsp;
+						<div class="row">
+							<div class="col"></div>
+							<div class="col-5">
+								<button class="btn btn-info" onclick="genid()">
+									Genarate ID Card
+								</button>
+							</div>
+							<div class="col"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-2"></div>
+				<div class="col">
+					<!-- Card Output -->
+					<div class="container border border-5 border-secondary">
+						<div class="row">
+							<div class="col"></div>
+							<div class="col">
+								<img
+									src="/img/CIT_LOGO_Circle.png"
+									width="100"
+									height="100"
+									alt=""
+								/>
+							</div>
+							<div class="col"></div>
+						</div>
+						&nbsp;
+						<div class="row">
+							<div class="col">Your Name :</div>
+							<div class="col" id="pname">Saikat Sardar</div>
+						</div>
+						&nbsp;
+						<div class="row">
+							<div class="col">Your Email :</div>
+							<div class="col" id="pemail">saikatsardar5@gmail.com</div>
+						</div>
+						&nbsp;
+						<div class="row">
+							<div class="col">Course Name :</div>
+							<div class="col" id="pcname">Web Development</div>
+						</div>
+						&nbsp;
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="/script.js"></script>
+	</body>
+</html>
